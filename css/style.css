@@ -1,0 +1,17 @@
+body{
+    background-color: cadetblue;
+}
+section {
+    width: 1220px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: white;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+.flex > div {
+    width: 30%;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <section>
+        
+            2. Создать массив, описывающий чек в магазине. Каждый элемент массива состоит из названия товара, количества и цены за единицу товара. Написать следующие функции:
+<ul>
+    <li>Распечатка чека на экран;</li>
+    <li>Подсчет общей суммы покупки;</li>
+    <li>Получение самой дорогой покупки в чеке;</li>
+    <li>Подсчет средней стоимости одного товара в чеке.</li>
+</ul>
+       <hr>
+       <div class="flex">
+           <div>
+            <br> 
+               <input type="text" id="name" placeholder="названия товара">
+               <br> <br>
+               <input type="number" id="quantity" placeholder="количества товара">
+               <br> <br>
+               <input type="number" id="price" placeholder="цены за единицу товара">
+               <br> <br>
+               <button onclick="addProduct()" type="reset">добавить в корзину</button>
+           </div>
+           <div><center><h2>Чек</h2></center>
+        <p id="fiscalReceipt"></p>
+        </div>
+           <div>
+            <h3>Общая сумма покупки</h3>
+               <p id="sumHtml"> </p>
+               <h3>Самая дорогая покупка</h3>
+               <p id="maxHtml"> </p>
+               <h3>Cредней стоимости одного товара</h3>
+               <p id="averagHtml"> </p>
+
+           </div>
+           
+       </div>
+    </section>
+</body>
+</html>
